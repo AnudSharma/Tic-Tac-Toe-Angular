@@ -1,0 +1,36 @@
+
+
+header{
+    width:60%;
+    margin:auto;
+    text-align: center;  
+  
+}
+    main{
+    display:grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 0px;
+    width:60%;
+    margin:auto;
+   justify-content: center;
+  
+}
+
+app-square{
+    border: 1px gray solid;
+    height:200px;
+    color:white;
+    background: rgb(174,174,238);
+    background: radial-gradient(circle, rgba(174,174,238,1) 31%, rgba(111,156,208,1) 100%);
+    font-size:80px;
+    text-align: center;
+
+    &:hover{
+        cursor: pointer;
+        // box-shadow: 10px 10px 10px red;
+        //transform: scale(1.01);
+        box-shadow: 
+        inset 0 -3em 3em rgba(0,0,0,0.1), 
+                       0.3em 0.3em 1em rgba(0,0,0,0.3);
+    }
+}
